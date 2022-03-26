@@ -1,0 +1,13 @@
+.container-box {
+  max-width: 345px;
+  background-color: var(--white);
+  border-radius: 9pt;
+  border: 1px solid var(--border-color);
+  margin: 0 auto;
+  padding-top: 2.5rem;
+}
+
+.container-box.container-box-first {
+  margin-top: -50px;
+  margin-bottom: 3rem;
+}

@@ -1,0 +1,58 @@
+.item-list {
+  width: 100%;
+  display: flex;
+  height: 8rem;
+  padding: 1.5rem;
+}
+
+.round-box {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  margin-right: 2.9rem;
+}
+
+.round-box-blue {
+  background-image: linear-gradient(45deg, var(--second-blue), var(--first-blue));
+}
+
+.round-box-red {
+  background-image: linear-gradient(45deg, var(--second-purple), var(--first-purple));
+}
+
+.round-box-purple {
+  background-image: linear-gradient(45deg, var(--second-red), var(--first-red));
+}
+
+.item-list-text {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--text-color);
+}
+
+.info-type-account {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.type-account {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--text-color);
+  margin-bottom: 0.5rem;
+}
+
+.info-pay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+}
+
+.balance-pay {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--text-color);
+  margin-bottom: 0.5rem;
+}
